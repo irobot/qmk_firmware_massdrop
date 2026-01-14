@@ -37,6 +37,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Avoid out-of-bounds errors when SmartEEPROM is not enabled */
 #define EEPROM_SIZE 1024
+#define EEPROM_CUSTOM true
 
 /* MCU Port name definitions */
 #define PA 0
